@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-02-01T23:53:30 BOT" name="Suite" finished-at="2021-02-01T23:54:14 BOT" duration-ms="44299">
+    <groups>
+    </groups>
+    <test started-at="2021-02-01T23:53:30 BOT" name="RemoveItemToShoppingCart" finished-at="2021-02-01T23:53:42 BOT" duration-ms="12778">
+      <class name="com.automationpractice.RemoveItemToSCart">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automationpractice.RemoveItemToSCart@6e005dc9]" started-at="2021-02-01T23:53:30 BOT" name="initialize" finished-at="2021-02-01T23:53:38 BOT" duration-ms="8063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:com.automationpractice.RemoveItemToSCart@6e005dc9]" started-at="2021-02-01T23:53:38 BOT" name="basePageNavigation" finished-at="2021-02-01T23:53:42 BOT" duration-ms="3957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationpractice.RemoveItemToSCart@6e005dc9]" started-at="2021-02-01T23:53:42 BOT" name="teardown" finished-at="2021-02-01T23:53:42 BOT" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.RemoveItemToSCart -->
+    </test> <!-- RemoveItemToShoppingCart -->
+    <test started-at="2021-02-01T23:53:42 BOT" name="AddItemToShoppingCart" finished-at="2021-02-01T23:53:54 BOT" duration-ms="12068">
+      <class name="com.automationpractice.AddItemToSCart">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automationpractice.AddItemToSCart@60410cd]" started-at="2021-02-01T23:53:42 BOT" name="initialize" finished-at="2021-02-01T23:53:50 BOT" duration-ms="7424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:com.automationpractice.AddItemToSCart@60410cd]" started-at="2021-02-01T23:53:50 BOT" name="basePageNavigation" finished-at="2021-02-01T23:53:54 BOT" duration-ms="3981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationpractice.AddItemToSCart@60410cd]" started-at="2021-02-01T23:53:54 BOT" name="teardown" finished-at="2021-02-01T23:53:54 BOT" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.AddItemToSCart -->
+    </test> <!-- AddItemToShoppingCart -->
+    <test started-at="2021-02-01T23:53:54 BOT" name="ValidateStoreInformation" finished-at="2021-02-01T23:54:02 BOT" duration-ms="7607">
+      <class name="com.automationpractice.ValidateStoreInformation">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automationpractice.ValidateStoreInformation@ae3540e]" started-at="2021-02-01T23:53:54 BOT" name="initialize" finished-at="2021-02-01T23:54:01 BOT" duration-ms="6950" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation()[pri:0, instance:com.automationpractice.ValidateStoreInformation@ae3540e]" started-at="2021-02-01T23:54:01 BOT" name="basePageNavigation" finished-at="2021-02-01T23:54:02 BOT" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationpractice.ValidateStoreInformation@ae3540e]" started-at="2021-02-01T23:54:02 BOT" name="teardown" finished-at="2021-02-01T23:54:02 BOT" duration-ms="531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.ValidateStoreInformation -->
+    </test> <!-- ValidateStoreInformation -->
+    <test started-at="2021-02-01T23:54:02 BOT" name="SearchItem" finished-at="2021-02-01T23:54:14 BOT" duration-ms="11749">
+      <class name="com.automationpractice.SearchItems">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.automationpractice.SearchItems@17d88132]" started-at="2021-02-01T23:54:02 BOT" name="initialize" finished-at="2021-02-01T23:54:06 BOT" duration-ms="3839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="basePageNavigation(java.lang.String)[pri:0, instance:com.automationpractice.SearchItems@17d88132]" started-at="2021-02-01T23:54:06 BOT" name="basePageNavigation" data-provider="getData" finished-at="2021-02-01T23:54:11 BOT" duration-ms="4731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[145]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method signature="basePageNavigation(java.lang.String)[pri:0, instance:com.automationpractice.SearchItems@17d88132]" started-at="2021-02-01T23:54:11 BOT" name="basePageNavigation" data-provider="getData" finished-at="2021-02-01T23:54:13 BOT" duration-ms="2602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Blouse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.automationpractice.SearchItems@17d88132]" started-at="2021-02-01T23:54:13 BOT" name="teardown" finished-at="2021-02-01T23:54:14 BOT" duration-ms="560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.automationpractice.SearchItems -->
+    </test> <!-- SearchItem -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test  name="RemoveItemToShoppingCart">
+    <classes>
+      <class name="com.automationpractice.RemoveItemToSCart"/>
+     </classes>
+  </test> <!-- Test -->
+  <test  name="AddItemToShoppingCart">
+    <classes>
+      <class name="com.automationpractice.AddItemToSCart"/>
+    </classes>
+  </test> <!-- Test -->
+    <test  name="ValidateStoreInformation">
+    <classes>
+      <class name="com.automationpractice.ValidateStoreInformation"/>
+    </classes>
+  </test> <!-- Test --> 
+    <test  name="SearchItem">
+    <classes>
+      <class name="com.automationpractice.SearchItems"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
